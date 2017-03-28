@@ -16,11 +16,13 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
         qcw_meter.cpp \
-    qcustomplot.cpp
+    qcustomplot.cpp \
+    test.cpp
 
 HEADERS  += mainwindow.h \
           qcw_meter.h \
-    qcustomplot.h
+    qcustomplot.h \
+    test.h
 
 FORMS    += mainwindow.ui
 
